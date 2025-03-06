@@ -88,21 +88,14 @@ export default function Footer() {
                   <Linkedin size={20} className="text-purple-400" />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/KainoahVann"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-purple-900/50 flex items-center justify-center hover:bg-purple-800 transition-colors"
                 >
                   <Github size={20} className="text-purple-400" />
                 </a>
-                <a
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-purple-900/50 flex items-center justify-center hover:bg-purple-800 transition-colors"
-                >
-                  <Twitter size={20} className="text-purple-400" />
-                </a>
+
               </div>
             </div>
           </div>
