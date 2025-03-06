@@ -46,7 +46,6 @@ const projects = [
 ]
 
 export default function Projects() {
-  const [activeProject, setActiveProject] = useState(null)
 
   return (
     <section id="projects" className="py-20 relative">

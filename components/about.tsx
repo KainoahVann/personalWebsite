@@ -83,7 +83,7 @@ export default function About() {
             <div className="space-y-6">
               <div className="bg-gray-900/50 p-6 rounded-lg border border-purple-500/30 hover:border-purple-500/70 transition-colors">
                 <h4 className="text-xl font-medium text-purple-400">California State Polytechnic University, Pomona</h4>
-                <p className="text-gray-400 mt-1">Bachelor's of Computer Science</p>
+                <p className="text-gray-400 mt-1">Bachelor&apos;s of Computer Science</p>
                 <p className="text-gray-400 mt-1">Planned Graduation: 2027</p>
               </div>
 

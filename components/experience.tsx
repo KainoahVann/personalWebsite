@@ -70,20 +70,6 @@ export default function Experience() {
   const [rocketPosition, setRocketPosition] = useState(0)
   const [timelineHeight, setTimelineHeight] = useState(0)
 
-  useEffect(() => {
-    if (timelineRef.current) {
-      setTimelineHeight(timelineRef.current.offsetHeight)
-    }
-
-    const handleResize = () => {
-      if (timelineRef.current) {
-        setTimelineHeight(timelineRef.current.offsetHeight)
-      }
-    }
-
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
 
   useEffect(() => {
     if (activeIndex !== null) {

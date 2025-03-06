@@ -27,7 +27,7 @@ export default function Footer() {
           <div className="space-y-6">
             <h3 className="text-xl font-semibold text-purple-400">Get In Touch</h3>
             <p className="text-gray-300">
-              Feel free to reach out if you're looking for a dedicated computer science student with a passion for
+              Feel free to reach out if you&apos;re looking for a dedicated computer science student with a passion for
               embedded systems, computer vision, and robotics.
             </p>
 
