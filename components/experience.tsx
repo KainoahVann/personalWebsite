@@ -68,7 +68,7 @@ export default function Experience() {
   const [activeIndex, setActiveIndex] = useState<number | null>(null)
   const timelineRef = useRef<HTMLDivElement>(null)
   const [rocketPosition, setRocketPosition] = useState(0)
-  const [timelineHeight, setTimelineHeight] = useState(0)
+
 
 
   useEffect(() => {
