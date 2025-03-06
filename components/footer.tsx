@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Mail, Linkedin, Github, Twitter, Phone } from "lucide-react"
+import { Mail, Linkedin, Github, Phone } from "lucide-react"
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
